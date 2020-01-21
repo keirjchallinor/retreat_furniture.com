@@ -1,0 +1,1085 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin: 0;
+   padding: 0;    
+
+}
+
+img {width:100%;}
+
+a {text-decoration: none;}
+
+h1 {font-family: "Avenir Medium";}
+h3 {font-family: "sans-serif";}
+
+.container 
+{
+	
+/*basic CSS style*/    
+max-width: 1440px;    
+background-color:#C7DEEF;
+margin: 0 auto;
+	
+/*CSS Grid*/
+}
+
+.header 
+{
+max-width: 1440px;
+height: 100px;
+display: flex;
+align-items: baseline;
+padding-bottom: 30px;
+background-color: #72A9D8;    
+    
+ 
+/*------Flex Display-------------*/
+    
+}
+
+.header>.logo 
+
+{         
+  
+
+  float: left;
+ padding: 10px;
+background-color: #72A9D8;    
+    
+}
+    
+    
+.header>nav
+
+{
+    
+/*---CSS Flexbox --*/
+    
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-decoration: none;     
+    
+/*-----Basic CSS Style----*/    
+    
+
+width: 70%;
+font-size: 20pt;
+font-family:"Avenir Medium";
+}
+
+
+.header>nav>a:link {color: black}
+.header>nav>a:visited {color:black;}
+.header>nav>a:hover {color:white;
+        background-color: #25BFD1;}        
+.header>nav>a:active {color:darkblue;}
+
+.header>nav>a {text-decoration: none; padding: 5px;
+
+
+}
+
+.header>.account_logo 
+
+{
+    
+    height: 40px;
+    width: 40px;
+    float: left;
+    background-color: #72A9D8;
+}
+
+.header>.check_out_cart 
+
+{
+    
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding: 10px;
+    background-color: #72A9D8;
+    
+}
+
+.clear {clear:both;}
+
+
+/*------End of Header------------*/
+.cover_page 
+{
+ 
+/*Basic Css code */
+    
+height: 854px;
+font-size: 40pt;
+font-family:"Open-Sans Medium";   
+margin-bottom: 30px;
+
+	
+/*--background Image--*/
+	
+	
+background-image: url("images/people_sitting_on_couch.jpg");
+
+background-repeat: no-repeat;
+	
+background-position: right;
+
+background-size:cover;
+	
+}
+
+.cover_page>img {width:100%;}
+
+
+.cover_header {
+	text-align:center;
+    
+}
+
+.cover_header>h1 {
+	text-align:left;
+    color: #0E0E0E;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+    font-family: "open-sans";
+    font-size: 45pt;   
+}
+    
+.cover_header>h3 {font-size: 18pt;
+                text-align: center;
+            
+            max-width: 600px;
+            line-height: 40px;
+                      
+}    
+    
+.living_room_sets 
+{
+    
+margin: 0 auto;
+ height: 700px;   
+
+max-width:1160px;
+
+color: black;
+
+margin-bottom: 50px;
+
+	
+
+
+/*--Backgound Image Starts----*/    
+
+background-image: url("images/living_room_set.jpg");
+
+background-position: center;
+    
+background-repeat: no-repeat;
+    
+background-size:cover;
+        
+    
+/*---Background Image Ends----*/
+    
+    
+} /*-----Furntire Set closing tag ---*/
+
+
+
+.living_room_sets>h1
+
+{font-size: 30pt;
+padding-top: 150px;    
+padding-left: 600px;  
+
+
+}
+
+
+/*----------Furniture Sets Ends---*/
+
+/*-Main Article Container Starts---*/
+
+.article_container{
+    
+   margin: 0 auto; 
+  max-width: 1160px; 
+   min-width: 375px; 
+    
+/*---Grid Display--*/    
+    
+display: grid;    
+grid-template-columns: repeat(12, 1fr);
+grid-auto-rows: 514px;
+
+grid-row-gap: 15px;	
+    
+background-color: #72A9D8;    
+   
+  
+    
+/*    
+/*----Basic Css Style---*/    
+  
+
+}
+
+/*--Article 1--Container Starts*/
+
+
+
+
+
+.article_img {
+ 
+grid-column: auto/span 7;
+   
+color:white; 
+    
+}
+
+.article_img>img {
+	width: 100%;
+	
+	object-fit: cover;
+
+}
+
+.article_header {
+grid-column: auto/span 5;	
+object-fit: cover;
+background-color: white;
+border	
+
+}
+
+.article_header>h1 {
+
+padding-top: 80px;	
+
+}
+
+
+.article_header>h3 
+
+{
+margin: 0;
+
+padding-top: 120px;
+
+}
+
+
+/*---Main Article Cotainer Ends----*/
+
+
+/*--------New Furnitue_Container starts----*/
+
+.new_furniture_container {
+    
+	
+	/*---Grid Diaplay---*/
+
+    max-width: 700px;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(310px, 1fr,)); 
+	
+	grid-gap: 30px;
+    
+    /*---Basic CSS Style--*/
+    margin: 0 auto;
+    
+    
+
+    
+    margin-bottom: 60px;
+    
+		
+		}
+	
+.new_furniture_image {
+	   
+    
+}
+
+.new_furniture_image>h2 
+
+{
+    margin: 0px;
+    text-align: center;
+    
+    
+}
+
+.new_furniture_image>button
+
+{   margin: 0px;  
+    align-content: center;
+    font-size: 25px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+.furniture_item_header {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+
+/*-------New Furniture Image Container ends
+
+/*--------New Furniture Items Header Starts---*/ 
+
+
+
+/*---------New Furniture Items Ends-------*/
+
+
+/*-------Main Furniture Items Starts------*/
+
+
+.main_furniture_items_title {font-size: 20pt;
+text-align: center;
+    
+padding: 30px;    
+
+}
+
+.main_furniture_items_container {
+
+
+    
+display: grid;
+   
+grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); 
+
+    
+grid-gap: 60px;
+padding: 30px;    
+  
+ 
+justify-content: center;
+	
+	
+	
+/*padding-left: 120px;
+    
+margin: 0;    
+
+margin-bottom: 160px;  */  
+    
+}
+
+
+.main_furniture_item{
+	
+}
+
+.main_furniture_item>img 
+
+{width: 100%;
+
+}
+
+.main_furniture_item>h2 
+
+{
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.subscribe {
+    
+max-width: 1440px;
+    
+
+
+padding: 30px;    
+
+margin: 30px;
+    
+background-color:#348BCC;
+    
+font-size: 30pt;    
+
+text-align: center;   
+}
+
+.subscribe>form {height: 200px; }
+
+.subscribe>form>input 
+{
+  width: 300px; height: 50px; margin-top: 30px; }
+.subscribe>form>button{width: 130px; height: 50px;  }
+
+
+
+.article_4 {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 563px;
+    
+    margin-bottom: 30px;
+    
+    
+/*---Background Image----*/
+
+
+background-image: url("images/outside_patio_chair.jpg");
+
+	background-repeat: no-repeat;	
+	
+	background-size: cover;
+    
+	background-position: left;
+}
+
+
+.article_4>img {
+    
+    width: "100%";
+    
+}
+
+.article_4_header>h1 
+{
+    
+background-color:#98BDDB;    
+color: #252323; 
+font-size: 40px;
+max-width: 500px;    
+margin-top: 392px;    
+padding: 40px;     
+border-radius: 4px;
+    
+float: left; 
+       
+}
+
+.article_5 {
+    
+margin: 0 auto;     
+max-width: 1200px;
+height: 563px;
+
+background-image: url("images/low-wooden-minimal-extra-large-coffee-table.jpg");
+	
+background-repeat: no-repeat;
+	
+background-position: right;
+
+background-size:cover;
+}
+
+.article_5_header>h1 {
+    
+background-color: #98BDDB;    
+color: #252323; 
+
+font-size: 40px;
+max-width: 500px;    
+margin-top: 390px;    
+padding: 40px;     
+border-radius: 4px;
+    
+float: right; 
+}
+
+
+
+
+.footer_container {
+
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16pt;
+    
+}
+    
+    .footer_item {
+        
+        background-color: #72A9D8;
+        padding-top: 30px;   
+        text-align: center;
+    } 
+
+    
+/*-----I-pad Media Screen-----*/
+
+@media screen and (max-width: 1024px) and (min-width: 500px) 
+
+  
+{
+       
+img {width: 100%;}    
+       
+.container 
+{
+	
+/*basic CSS style*/    
+max-width: 1024px;    
+background-color: #72A9D8;
+margin: 0 auto;
+	
+}
+    
+.header 
+{
+height: 350px;
+background-color: #72A9D8;    
+}
+    
+.header>.logo
+    
+{
+display: flex;
+flex-direction: column;
+    
+}
+
+/*---Display Layout---*/
+  
+.header>nav {
+    
+display: inline;
+display: flex;
+height: 300px;
+margin-bottom: 0px;    
+flex-direction: column;
+align-content: space-between;
+padding: 0px;
+
+            
+}
+
+.cover_page 
+{
+ 
+/*Basic Css code */
+    
+height: 500px;    
+font-size: 40pt;
+font-family:"Open-Sans Medium";   
+margin-bottom: 50px;
+
+	
+/*--background Image--*/
+	
+	
+background-image: url("images/people_sitting_on_couch_cover_ipad_image.jpg");
+background-repeat: no-repeat;
+	
+background-position: right;
+
+background-size:cover;
+	
+}
+
+.cover_page>img {width:100%;}
+
+
+.cover_header {
+	text-align:center;
+    
+}
+
+.cover_header>h1 {
+	text-align:left;
+    color: #0E0E0E;
+    padding-bottom: 20px;
+    margin-top: 5%;
+    font-family: "open-sans";
+    font-size: 30pt; 
+    padding-left: 30px;
+}
+    
+.cover_header>h3 {
+                   margin: 0 auto;    
+                padding-left: 30px;
+                max-width: 40%;
+                font-size: 14pt;
+                text-align: justify;
+                float: left;                      
+}    
+       
+.article_container{
+    
+   margin: 0 auto; 
+  max-width: 1040px; 
+    
+/*---Grid Display--*/    
+    
+display: grid;    
+   
+grid-template-columns: repeat(12, 1fr);
+
+grid-auto-rows: 440px;
+	
+grid-row-gap: 30px;
+    
+  
+    
+/*    
+/*----Basic Css Style---*/    
+  background-color: antiquewhite;  
+
+}
+
+/*--Article 1--Container Starts*/
+
+
+.article_img {
+ 
+margin: 0 auto;
+       
+/*--Grid Layout--*/
+    
+grid-column: auto/span 7;
+
+
+color:white; 
+       
+}
+
+.article_img>img {
+	width: 100%;
+	object-fit: cover;
+
+}
+
+.article_header {
+grid-column: 700px;
+  
+background-color: aliceblue;
+max-width: 640px;
+ 
+    
+
+    
+    }
+
+.article_header>h1
+    {
+    padding: 50px;
+    font-size: 30px;
+    margin-top: 5%;
+    
+    }
+    
+.article_header>h3
+    {
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 5%;
+    
+    }    
+
+.article_4 {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 563px;
+    
+    margin-bottom: 30px;
+    
+    
+/*---Background Image----*/
+
+
+background-image: url("images/article_patio_furniture_Ipad.jpg");
+
+	background-repeat: no-repeat;	
+	
+	background-size: cover;
+    
+	background-position: left;
+}
+
+
+.article_4>img {
+    
+    width: "100%";
+    
+}
+
+.article_4_header>h1 
+{
+    
+background-color:#98BDDB;    
+color: #252323; 
+font-size: 40px;
+max-width: 400px;    
+margin-top: 430px;    
+padding: 20px;     
+border-radius: 4px;
+    
+float: left; 
+        
+}
+    
+.subscribe {
+    
+max-width: 1440px;
+    
+height: 100px;
+    
+background-color: blanchedalmond;
+    
+font-size: 20pt;    
+
+text-align: center;   
+}
+
+.subscribe>form {height: 100px;}
+
+.subscribe>form>input 
+{
+  width: 100; height: 30px; margin-top: 30px;}
+.subscribe>form>button{width: 100px; height: 30px;}    
+
+} /*----End of Ipad Media Screen ----*/    
+
+ 
+
+@media screen and (max-width: 500px) and (min-width: 375px) 
+
+
+{
+ 
+    
+/*----Container starts----*/    
+.container 
+{
+	
+/*basic CSS style*/    
+max-width: 500px;    
+background-color: white;
+margin: 0 auto;
+padding: 0 auto;	
+	
+} 
+/*--Container Ends----*/    
+    
+.header 
+{
+display: flex;
+flex-direction: row; 
+align-items: baseline;        
+height: 400px; 
+background-color:#72A9D8;    
+}
+    
+.header>.logo   
+{
+background-color: #72A9D8;
+    
+}
+
+/*---Display Layout---*/
+  
+.header>nav {
+max-width: 375px;    
+height: 300px;
+margin-bottom: 0px;    
+flex-direction: column;
+align-content: space-between;
+padding: 0px;   
+
+}
+    
+.cover_page 
+{
+ 
+/*Basic Css code */
+    
+height: 300px;
+font-size: 40pt;
+font-family:"Open-Sans Medium";   
+margin-bottom: 300px;
+padding: 20px;    
+
+
+	
+/*--background Image--*/
+	
+	
+background-image: url("images/people_sitting_on_couch_cover_ipad_image.jpg");
+
+background-repeat: no-repeat;
+	
+background-position: right;
+
+background-size:cover;
+	
+}
+
+.cover_page>img {width:100%;}
+
+
+.cover_header {
+	text-align:center;
+    
+}
+
+.cover_header>h1 {
+	text-align:left;
+    color: #0E0E0E;
+    margin:0;
+    padding:0;
+    padding-bottom: 300px;
+    
+    font-family: "open-sans";
+    font-size: 30pt; 
+
+}
+    
+.cover_header>h3 {font-size: 18pt;
+                text-align: justify;
+            max-width: 600px;
+            line-height: 40px;
+                      
+}        
+ 
+.living_room_sets 
+{
+    
+margin: 0 auto;
+ height: 300px; 
+
+max-width:450px;
+
+
+
+color: black;
+
+margin-bottom: 30px;
+
+	
+
+
+/*--Backgound Image Starts----*/    
+
+background-image: url("images/living_room_set.jpg");
+
+background-position: center;
+    
+background-repeat: no-repeat;
+    
+background-size:cover;
+        
+    
+/*---Background Image Ends----*/
+    
+    
+} /*-----Furntire Set closing tag ---*/
+
+
+
+.living_room_sets>h1
+
+{font-size: 20pt;
+padding-top: 50px;    
+padding-left: 50px;  
+
+
+}
+
+
+/*----------Furniture Sets Ends---*/
+
+/*-Main Article Container Starts---*/
+
+.article_container{
+    
+   margin: 0 auto; 
+  max-width: 1040px; 
+  min-width: 375px;    
+    
+/*---Grid Display--*/    
+    
+display: grid;    
+   
+grid-template-columns: repeat(12, 1fr);
+
+grid-auto-rows: 195px;
+	
+grid-row-gap: 40px;
+padding:20px;    
+  
+    
+/*    
+/*----Basic Css Style---*/    
+  background-color: #72A9D8;  
+
+}
+
+/*--Article 1--Container Starts*/
+
+
+.article_img {
+ 
+margin: 0 auto;
+    
+    
+/*--Grid Layout--*/
+    
+grid-column: auto/span 7;
+
+
+color:white; 
+    
+
+    
+ 
+    
+}
+
+.article_img>img {
+	width: 100%;
+	object-fit: cover;
+
+}
+
+.article_header {
+  
+background-color: aliceblue;
+max-width: 640px;
+ 
+    
+
+    
+    }
+
+.article_header>h1
+{
+max-width: 640px;    
+padding: 10px;
+font-size: 16pt;
+   
+}
+
+.article_header>h3
+    
+{
+max-width: 640px;     
+ padding: 10px;
+ margin: 0;
+ padding-top: 10px;
+font-size: 12pt;    
+    
+
+}
+    
+    
+subscribe>form {height: 100px;}
+
+.subscribe>form>input 
+{
+  width: 100; height: 30px; margin-top: 30px;}
+    
+    
+.subscribe>form>button{width: 120px; height: 50px;}
+    
+    
+    
+.article_4 {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 30px;
+    
+    
+/*---Background Image----*/
+
+
+background-image: url("images/article_patio_furniture_Ipad.jpg");
+
+	background-repeat: no-repeat;	
+	
+	background-size: contain;
+    
+	background-position: right;
+}
+
+
+.article_4>img {
+    
+    width: 100%;
+    
+}
+
+.article_4_header>h1 
+{
+    
+background-color:#98BDDB;    
+color: #252323; 
+font-size: 40px;
+max-width: 400px;    
+margin-top: 430px;    
+padding: 20px;     
+border-radius: 4px;
+    
+float: left; 
+    
+}
+
+.article_5 {
+    
+margin: 0 auto;
+    max-width: 500px;
+    margin-bottom: 30px;
+    
+
+background-image: url("images/article_5_Living_room_inspiration.jpg");
+	
+background-repeat: no-repeat;
+	
+background-position: center;
+
+background-size:contain;
+}
+    
+    .article_5>img {
+        
+    width: 100%;    
+        
+    }
+        
+
+.article_5_header>h1 {
+    
+background-color: #98BDDB;    
+color: #252323; 
+
+font-size: 40px;
+max-width: 500px;    
+margin-top: 390px;    
+padding: 40px;     
+border-radius: 4px;
+    
+float: right; 
+}
+    
+
+ }/*------End of Iphone layout-----*/
+
+
+
+
+
+    
+    
+    
+    
+  
+    
+
+
